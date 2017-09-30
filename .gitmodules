@@ -1,0 +1,3 @@
+[submodule "vendor/kernel/kernel-mvc"]
+	path = vendor/kernel/kernel-mvc
+	url = git@github.com:wisoch/kernel-mvc.git
