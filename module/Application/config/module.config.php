@@ -20,6 +20,7 @@ return [
                 "dsn"    => "{$GLOBALS['database']['global.master']['dsn']}",
                 "user"   => "{$GLOBALS['database']['global.master']['user']}",
                 "pass"   => "{$GLOBALS['database']['global.master']['pass']}",
+                "profiler" => true,
                 "driver_options" => $GLOBALS['database']['global.master']['options'],
             ],
             "Global\Db\Slaver" => [
@@ -27,6 +28,7 @@ return [
                 "dsn"    => "{$GLOBALS['database']['global.slaver']['dsn']}",
                 "user"   => "{$GLOBALS['database']['global.slaver']['user']}",
                 "pass"   => "{$GLOBALS['database']['global.slaver']['pass']}",
+                "profiler" => true,
                 "driver_options" => $GLOBALS['database']['global.master']['options'],
             ],
         ],

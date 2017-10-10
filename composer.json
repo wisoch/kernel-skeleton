@@ -17,7 +17,9 @@
     },
     "autoload": {
         "psr-4" : {
+            "Kernel\\ModuleManager\\": "vendor/kernel/kernel-modulemanager/src/",
             "Kernel\\Mvc\\": "vendor/kernel/kernel-mvc/src/",
+            "Kernel\\Db\\": "vendor/kernel/kernel-db/src/",
             "Application\\": "module/Application/src/"
         }
     }
