@@ -7,12 +7,6 @@ use Zend\ServiceManager\Factory\InvokableFactory;
 return [
     'router'      => include __DIR__ . '/router.config.php',
 
-    'controllers' => [
-        'factories' => [
-            Controller\DashboardController::class => InvokableFactory::class
-        ],
-    ],
-
     'db' => [
         "adapters" => [
             "Global\Db\Master" => [

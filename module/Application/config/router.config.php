@@ -17,5 +17,18 @@ return [
                 ],
             ]
         ],
+        'protocol' => [
+            'type' => Segment::class,
+            'options' => [
+                'route'    => '/protocol/:action',
+                'constraints' => [
+                    'action' => ''
+                ],
+                'defaults' => [
+                    'controller' => Controller\DashboardController::class,
+                    'action'     => 'home',
+                ],
+            ]
+        ],
     ],
 ];
